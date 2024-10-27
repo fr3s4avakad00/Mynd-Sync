@@ -83,7 +83,3 @@ The Focus Game application is a character-driven gamified productivity tool. Use
 3. **Start Focus Session**: Navigate to `timer.html` to start a focus timer. When the session ends, points are awarded based on time spent.
 4. **Earn and Spend Points**: Earn points through focus sessions and spend them on customizations like background (via `newHome.html`) and items in the shop (via `house.html`).
 5. **Logout and Reset**: Users can log out or reset data on `gamePage.html` through the Log Out and Reset buttons.
-
----
-
-This `README.md` provides detailed insights into the structure, purpose, and operation of each part of the app, guiding users on running and engaging with the application effectively.
