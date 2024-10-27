@@ -1,4 +1,4 @@
-body {
+/* body {
     background: linear-gradient(45deg, #0085d2, #ff62b6);
 
 }
@@ -25,6 +25,7 @@ body {
 #pick2 {
     position: relative;
     left: 47%;
+    top: -10%;
     font-family: c;
     font-style: bold;
     margin-bottom: 2rem;
@@ -34,6 +35,7 @@ body {
 #pick3 {
     position: relative;
     left: 47%;
+    top: -10%;
     font-family: c;
     margin-bottom: 2rem;
     color: #195b9e;
@@ -65,7 +67,7 @@ body {
 #Face1 {
     position: relative;
     left: 20rem;
-    top: 0rem;
+    top: -10rem;
     height: 10rem;
     width: 10rem;
 }
@@ -73,7 +75,7 @@ body {
 #Face2 {
     position: relative;
     left: 40rem;
-    top: -10rem;
+    top: -20rem;
     height: 10rem;
     width: 10rem;
 }
@@ -81,7 +83,7 @@ body {
 #Face3 {
     position: relative;
     left: 60rem;
-    top: -20rem;
+    top: -30rem;
     height: 10rem;
     width: 10rem;
 }
@@ -89,7 +91,7 @@ body {
 #Body1 {
     position: relative;
     left: 20rem;
-    top: 0rem;
+    top: -10rem;
     height: 10rem;
     width: 10rem;
 }
@@ -97,7 +99,7 @@ body {
 #Body2 {
     position: relative;
     left: 40rem;
-    top: -10rem;
+    top: -20rem;
     height: 10rem;
     width: 10rem;
 }
@@ -105,7 +107,7 @@ body {
 #Body3 {
     position: relative;
     left: 60rem;
-    top: -20rem;
+    top: -30rem;
     height: 10rem;
     width: 10rem;
 }
@@ -171,4 +173,57 @@ body {
     font-style: bold;
     margin-bottom: 2rem;
     color: #195b9e;
+} */
+
+body {
+    background: linear-gradient(45deg, #0085d2, #ff62b6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #195b9e;
+    text-shadow: 3px 2px #1e283c;
+    text-align: center;
+}
+
+#pick1, #pick2, #pick3 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #195b9e;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#Hair, #Face, #Body {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between each button */
+    margin-bottom: 1rem; /* Space between each row */
+}
+
+#CharactorPicker button{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button img {
+    height: 8rem;
+    width: 8rem;
+}
+
+#Enter {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #195b9e;
+    text-align: center;
+    margin-top: 1rem;
 }
