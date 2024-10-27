@@ -1,0 +1,43 @@
+body {
+    background-color: #0071bc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#menu {
+    background-color: #0c6098;
+    border: none;
+    border-radius: 8px;
+}
+
+#timerPage {
+    position: relative;
+    top: -8%;
+    left: 35%;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+#Start, #Pause, #EndFocus, #Exit {
+    position: relative;
+    left: 0%;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2d4b59;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#Start:hover, #Pause:hover, #EndFocus:hover, #Exit:hover {
+    background-color: #4a768c;
+}

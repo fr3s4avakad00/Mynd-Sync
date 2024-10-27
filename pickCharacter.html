@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pick Character</title>
+    <link rel="Stylesheet" type="text/css" href="pickCharacter.css">
+</head>
+<body>
+    <div id="CharactorPicker">
+        <h1 id="title">Pick Character</h1>
+        <div id="Hair">
+            <p id="pick1">Pick Hair</p>
+            <button id="Hair1" onclick="getHair(event)"><img src="images/Hair1.png"></button><br>
+            <button id="Hair2" onclick="getHair(event)"><img src="images/Hair2.png"></button><br>
+            <button id="Hair3" onclick="getHair(event)"><img src="images/Hair3.png"></button><br>
+        </div>
+        <div id="Face">
+            <p id="pick2">Pick Face</p>
+            <button id="Face1" onclick="getFace(event)"><img src="images/Face1.png"></button><br>
+            <button id="Face2" onclick="getFace(event)"><img src="images/Face2.png"></button><br>
+            <button id="Face3" onclick="getFace(event)"><img src="images/Face3.png"></button><br>
+        </div>
+        <div id="Body">
+            <p id="pick3">Pick Body</p>
+            <button id="Body1" onclick="getBody(event)"><img src="images/Body1.png"></button><br>
+            <button id="Body2" onclick="getBody(event)"><img src="images/Body2.png"></button><br>
+            <button id="Body3" onclick="getBody(event)"><img src="images/Body3.png"></button><br>
+        </div>
+    </div>
+    <div id="Enter">
+        <button id="EnterButton" onclick="gamePage()">Enter</button>
+    </div>
+    <script src="pickCharacter.js"></script>
+</body>
+</html>

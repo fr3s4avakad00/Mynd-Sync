@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Character</title>
+    <link rel="stylesheet" type="text/css" href="house.css">
+</head>
+<body>
+    <div id="selectedCharacter">
+        <img id="selectedHair" src="" alt="Hair">
+        <img id="selectedFace" src="" alt="Face">
+        <img id="selectedBody" src="" alt="Body">
+    </div>
+     
+    <div id="Things">
+        <div id ="Item1"><img src="images/Item1.png" id ="item1"></div>
+        <div id ="Item2"><img src="images/Item2.png" id ="item2"></div>
+        <div id ="Item3"><img src="images/Item3.png" id ="item3"></div>
+        <button id="surprise" onclick="surprise()"><img src="images/surprise.png"></button>
+    </div>
+
+    <div id = "Background">
+        <button id="Home" onclick="Home()"><img src="images/Background.png"></button>
+    </div>
+
+    <div id="message">
+        <button id="Exit" onclick="exit()">Exit</button>
+        <button id="BuyTable" onclick="buyTable()">Buy Table for 1 Point</button>
+        <button id="BuyCupHead" onclick="buyCupHead()">Buy Cup Head for 100 Points</button>
+        <button id="buyCofeCup" onclick="buyCofeCup()">Buy Coffee Cup for 15 Points</button>
+        <!-- <button id="sofa" onclick="sofa()">Sofa</button> -->
+    </div>
+
+    <script src="house.js"></script>
+    <script src="newHome.js"></script>
+</body>
+</html>
